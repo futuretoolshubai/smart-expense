@@ -52,3 +52,12 @@ export const INITIAL_TRANSACTIONS: Transaction[] = [
   { id: '5', amount: 1200, type: 'expense', category: 'Bills', description: 'Rent Payment', date: new Date(new Date().setDate(5)).toISOString() },
   { id: '6', amount: 300, type: 'expense', category: 'Shopping', description: 'New Shoes', date: new Date(new Date().setDate(new Date().getDate() - 5)).toISOString() },
 ];
+
+// Google AdMob Configuration
+// Replace these with production IDs when releasing the native app
+export const ADMOB_IDS = {
+  APP_ID: 'ca-app-pub-1181009023938079~9536866246',
+  BANNER: 'ca-app-pub-1181009023938079/8331595789',
+  INTERSTITIAL: 'ca-app-pub-1181009023938079/7345817171',
+  REWARDED: 'ca-app-pub-1181009023938079/2093490498',
+};
